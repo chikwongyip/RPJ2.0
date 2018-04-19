@@ -1,0 +1,20 @@
+[ 2018-04-11T21:20:54+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000653s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000535s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000562s ]
+NOTIC: [2] Declaration of Home\Model\Student::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Users/chihkuang/Sites/tp/Application/Home/Model/StudentModel.class.php 第 7 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-04-11T21:21:37+08:00 ] ::1 /tp/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000317s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000573s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000595s ]
+NOTIC: [2] Declaration of Home\Model\Student::add() should be compatible with Think\Model::add($data = '', $options = Array, $replace = false) /Users/chihkuang/Sites/tp/Application/Home/Model/StudentModel.class.php 第 7 行.
+ERR: SQLSTATE[HY000] [2002] Connection refused
+

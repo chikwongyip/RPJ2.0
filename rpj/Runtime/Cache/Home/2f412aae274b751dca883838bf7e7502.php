@@ -2,18 +2,18 @@
 <html lang="zh-cn">
 
 	<head>
-		<title></title>
+		<title><?php echo ($comArr['comName']); ?>}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
-		<link rel="stylesheet" type="text/css" href="static/css/bootstrap.min.css" />
-		<link rel="stylesheet" type="text/css" href="static/css/main.css" />
+		<link rel="stylesheet" type="text/css" href="/rpj/Public/css/bootstrap.min.css" />
+		<link rel="stylesheet" type="text/css" href="/rpj/Public/css/main.css" />
 	</head>
 
 	<body class="bodypg">
 		<div class="top-intr">
 			<div class="container">
 				<p class="pull-left">
-					蓝海化工有限公司
+					广州瑞谱佳科技有限公司
 				</p>
 				<p class="pull-right">
 					<a><i class="glyphicon glyphicon-earphone"></i>联系电话：0512-57995109 </a>
@@ -30,7 +30,7 @@
 						<span class="icon-bar"></span>
 					</button>-->
 					<a href="index.html">
-						<h1>蓝海化工</h1>
+						<h1>广州瑞谱佳科技有限公司</h1>
 						<p>LAN HAI CO.,LTD.</p>
 					</a>
 				</div>
@@ -44,7 +44,7 @@
 							<a href="index.html">网站首页</a>
 						</li>
 						<li>
-							<a href="about.html">关于蓝海</a>
+							<a href="about.html">关于瑞谱佳</a>
 						</li>
 						<li>
 							<a href="products.html">产品介绍</a>
@@ -93,13 +93,13 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="static/images/banner/banner2.jpg">
+					<img src="/rpj/Public/images/banner/banner2.jpg">
 				</div>
 				<div class="item">
-					<img src="static/images/banner/banner3.jpg">
+					<img src="/rpj/Public/images/banner/banner3.jpg">
 				</div>
 				<div class="item">
-					<img src="static/images/banner/banner1.jpg">
+					<img src="/rpj/Public/images/banner/banner1.jpg">
 				</div>
 			</div>
 
@@ -138,7 +138,7 @@
 							<dd><a href="products-detail7.html">三丙二醇甲醚</a></dd>
 						</dl>
 					</div>
-					
+
 				</div>
 				<div class="col-sm-9 col-xs-12">
 					<div class="about-list row">
@@ -150,10 +150,10 @@
 								</div>
 								<div class=" about-con row">
 									<div class="col-sm-6 col-xs-12">
-										<img src="static/images/ab.jpg"/>
+										<img src="/rpj/Public/images/ab.jpg"/>
 									</div>
 									<div class="col-sm-6 col-xs-12">
-										<h3>昆山蓝海化工有限公司</h3>
+										<h3>昆山广州瑞谱佳科技有限公司有限公司</h3>
 										<p>
 											经销批发的丙二醇、乙二醇、甘油、油酸、胺类、硬脂酸畅销消费者市场，在消费者当中享有较高的地位，公司与多家零售商和代理商建立了长期稳定的合作关系。
 										</p>
@@ -167,7 +167,7 @@
 									<h2>联系我们</h2>
 								</div>
 								<div class="con-det">
-									<a href="contact.html"><img src="static/images/listcon.jpg"/></a>
+									<a href="contact.html"><img src="/rpj/Public/images/listcon.jpg"/></a>
 									<ul>
 										<li>公司地址：江苏省昆山市智谷创意产业园</li>
 										<li>固定电话：<br />0512-57995109</li>
@@ -185,49 +185,49 @@
 						<ul class="row">
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail.html">
-									<img src="static/images/products/pro1.jpg"/>
+									<img src="/rpj/Public/images/products/pro1.jpg"/>
 									<p>6501</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail1.html">
-									<img src="static/images/products/pro2.jpg"/>
+									<img src="/rpj/Public/images/products/pro2.jpg"/>
 									<p>一水柠檬酸/无水柠檬酸</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail2.html">
-									<img src="static/images/products/pro3.jpg"/>
+									<img src="/rpj/Public/images/products/pro3.jpg"/>
 									<p>苯甲酸钠</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail3.html">
-									<img src="static/images/products/pro4.jpg"/>
+									<img src="/rpj/Public/images/products/pro4.jpg"/>
 									<p>96%/98%磷酸三钠</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail4.html">
-									<img src="static/images/products/pro5.jpg"/>
+									<img src="/rpj/Public/images/products/pro5.jpg"/>
 									<p>三聚磷酸钠</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail5.html">
-									<img src="static/images/products/pro6.jpg"/>
+									<img src="/rpj/Public/images/products/pro6.jpg"/>
 									<p>二乙二醇己醚</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail6.html">
-									<img src="static/images/products/pro7.jpg"/>
+									<img src="/rpj/Public/images/products/pro7.jpg"/>
 									<p>二丙二醇丙醚</p>
 								</a>
 							</li>
 							<li class="col-sm-3 col-xs-6">
 								<a href="products-detail7.html">
-									<img src="static/images/products/pro8.jpg"/>
+									<img src="/rpj/Public/images/products/pro8.jpg"/>
 									<p>三丙二醇甲醚</p>
 								</a>
 							</li>
@@ -243,10 +243,9 @@
 			<div class="footer02">
 				<div class="container">
 					<div class="col-sm-4 col-xs-12 footer-address">
-						<h4>蓝海化工有限公司</h4>
+						<h4>广州瑞谱佳科技有限公司有限公司</h4>
 						<ul>
 							<li><i class="glyphicon glyphicon-home"></i>公司地址：江苏省苏州市联邦国际花园</li>
-							<li><i class="glyphicon glyphicon-phone-alt"></i>固定电话：0512-57995109 </li>
 							<li><i class="glyphicon glyphicon-phone"></i>移动电话：18112651385</li>
 							<li><i class="glyphicon glyphicon-envelope"></i>联系邮箱：Cindy@kindjob.com</li>
 						</ul>
@@ -267,20 +266,20 @@
 					</ul>
 					<div class="gw col-sm-4 col-xs-12">
 						<p>关注我们：</p>
-						<img src="static/images/wx.jpg"/>
+						<img src="/rpj/Public/images/wx.jpg"/>
 						<p>客服热线：0512-57995109</p>
 					</div>
 				</div>
 				<div class="copyright text-center">
 					<span>copyright © 2017 </span>
-					<span>蓝海化工有限公司 </span>
+					<span>广州瑞谱佳科技有限公司有限公司 </span>
 					<span>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a> </span>
 				</div>
 			</div>
 		</footer>
-		<script src="static/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="static/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="static/js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/rpj/Public/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/rpj/Public/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/rpj/Public/js/main.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>

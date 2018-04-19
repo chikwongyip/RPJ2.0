@@ -93,13 +93,13 @@
 			<!-- Wrapper for slides -->
 			<div class="carousel-inner" role="listbox">
 				<div class="item active">
-					<img src="static/images/banner/banner2.jpg">
+					<img src="/rpj/Public/images/banner/banner2.jpg">
 				</div>
 				<div class="item">
-					<img src="static/images/banner/banner3.jpg">
+					<img src="/rpj/Public/images/banner/banner3.jpg">
 				</div>
 				<div class="item">
-					<img src="static/images/banner/banner1.jpg">
+					<img src="/rpj/Public/images/banner/banner1.jpg">
 				</div>
 			</div>
 
@@ -135,7 +135,7 @@
 						<li class="active">关于蓝海</li>
 					</ol>
 					<div class="abdetail">
-						<img src="static/images/ab.jpg"/>
+						<img src="/rpj/Public/images/ab.jpg"/>
 						<p>
 							昆山蓝海化工有限公司 经销批发的丙二醇、乙二醇、甘油、油酸、胺类、硬脂酸畅销消费者市场，在消费者当中享有较高的地位，公司与多家零售商和代理商建立了长期稳定的合作关系。昆山蓝海化工有限公司经销的丙二醇、乙二醇、甘油、油酸、胺类品种齐全、价格合理。昆山蓝海化工有限公司实力雄厚，重信用、守合同、保证产品质量，以多品种经营特色和薄利多销的原则，赢得了广大客户的信任。
 						</p>
@@ -179,7 +179,7 @@
 					</ul>
 					<div class="gw col-sm-4 col-xs-12">
 						<p>关注我们：</p>
-						<img src="static/images/wx.jpg"/>
+						<img src="/rpj/Public/images/wx.jpg"/>
 						<p>客服热线：0512-57995109</p>
 					</div>
 				</div>
@@ -190,9 +190,9 @@
 				</div>
 			</div>
 		</footer>
-		<script src="static/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="static/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
-		<script src="static/js/main.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/rpj/Public/js/jquery.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/rpj/Public/js/bootstrap.min.js" type="text/javascript" charset="utf-8"></script>
+		<script src="/rpj/Public/js/main.js" type="text/javascript" charset="utf-8"></script>
 	</body>
 
 </html>
