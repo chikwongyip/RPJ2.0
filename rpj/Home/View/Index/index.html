@@ -2,7 +2,7 @@
 <html lang="zh-cn">
 
 	<head>
-		<title>{$comArr['comName']}}</title>
+		<title>{$companyInfo.comname}</title>
 		<meta charset="utf-8" />
 		<meta name="viewport" content="width=device-width, initial-scale=1">
 		<link rel="stylesheet" type="text/css" href="__PUBLIC__/css/bootstrap.min.css" />
@@ -13,10 +13,10 @@
 		<div class="top-intr">
 			<div class="container">
 				<p class="pull-left">
-					广州瑞谱佳科技有限公司
+					{$companyInfo.comname}
 				</p>
 				<p class="pull-right">
-					<a><i class="glyphicon glyphicon-earphone"></i>联系电话：0512-57995109 </a>
+					<a><i class="glyphicon glyphicon-earphone"></i>联系电话：{$companyInfo.comphone} </a>
 				</p>
 			</div>
 		</div>
@@ -30,8 +30,8 @@
 						<span class="icon-bar"></span>
 					</button>-->
 					<a href="index.html">
-						<h1>广州瑞谱佳科技有限公司</h1>
-						<p>LAN HAI CO.,LTD.</p>
+						<h1>{$companyInfo.comname}</h1>
+						<p>{$companyInfo.comenglist}</p>
 					</a>
 				</div>
 				<div class="pull-left search">
@@ -68,7 +68,7 @@
 					</a>
 				</li>
 				<li>
-					<a href="tel:18112651385" >
+					<a href="tel:{$companyInfo.comphone}" >
 						<p><i class="glyphicon glyphicon-earphone"></i>
 						拨号联系</p>
 					</a>
@@ -153,9 +153,9 @@
 										<img src="__PUBLIC__/images/ab.jpg"/>
 									</div>
 									<div class="col-sm-6 col-xs-12">
-										<h3>昆山广州瑞谱佳科技有限公司有限公司</h3>
+										<h3>{$companyInfo.comname}</h3>
 										<p>
-											经销批发的丙二醇、乙二醇、甘油、油酸、胺类、硬脂酸畅销消费者市场，在消费者当中享有较高的地位，公司与多家零售商和代理商建立了长期稳定的合作关系。
+											{$companyInfo.combrief}
 										</p>
 									</div>
 								</div>
@@ -169,9 +169,9 @@
 								<div class="con-det">
 									<a href="contact.html"><img src="__PUBLIC__/images/listcon.jpg"/></a>
 									<ul>
-										<li>公司地址：江苏省昆山市智谷创意产业园</li>
-										<li>固定电话：<br />0512-57995109</li>
-										<li>联系邮箱：Cindy@kindjob.com</li>
+										<li>公司地址：{$companyInfo.comaddress}</li>
+										<li>移动电话：<br />{$companyInfo.comphone}</li>
+										<li>联系邮箱：{$companyInfo.comemail}</li>
 									</ul>
 								</div>
 							</div>
@@ -243,11 +243,11 @@
 			<div class="footer02">
 				<div class="container">
 					<div class="col-sm-4 col-xs-12 footer-address">
-						<h4>广州瑞谱佳科技有限公司有限公司</h4>
+						<h4>{$companyInfo.comname}</h4>
 						<ul>
-							<li><i class="glyphicon glyphicon-home"></i>公司地址：江苏省苏州市联邦国际花园</li>
-							<li><i class="glyphicon glyphicon-phone"></i>移动电话：18112651385</li>
-							<li><i class="glyphicon glyphicon-envelope"></i>联系邮箱：Cindy@kindjob.com</li>
+							<li><i class="glyphicon glyphicon-home"></i>公司地址：{$companyInfo.comaddress}</li>
+							<li><i class="glyphicon glyphicon-phone"></i>移动电话：{$companyInfo.comphone}</li>
+							<li><i class="glyphicon glyphicon-envelope"></i>联系邮箱：{$companyInfo.comemail}</li>
 						</ul>
 					</div>
 					<ul class="footerlink col-sm-4 hidden-xs">
@@ -267,13 +267,13 @@
 					<div class="gw col-sm-4 col-xs-12">
 						<p>关注我们：</p>
 						<img src="__PUBLIC__/images/wx.jpg"/>
-						<p>客服热线：0512-57995109</p>
+						<p>客服热线：{$companyInfo.comphone}</p>
 					</div>
 				</div>
 				<div class="copyright text-center">
 					<span>copyright © 2017 </span>
-					<span>广州瑞谱佳科技有限公司有限公司 </span>
-					<span>更多模板：<a href="http://www.mycodes.net/" target="_blank">源码之家</a> </span>
+					<span>{$companyInfo.comname} </span>
+					<span>{$companyInfo.comcode}</a> </span>
 				</div>
 			</div>
 		</footer>
