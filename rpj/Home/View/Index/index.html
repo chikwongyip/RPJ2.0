@@ -252,10 +252,10 @@
 					</div>
 					<ul class="footerlink col-sm-4 hidden-xs">
 						<li>
-							<a href="about.html">关于我们</a>
+							<a href={ $U('Home/About/About')}>关于我们</a>
 						</li>
 						<li>
-							<a href="products.html">产品介绍</a>
+							<a href="U('Home/About/About')">产品介绍</a>
 						</li>
 						<li>
 							<a href="news.html">新闻中心</a>
