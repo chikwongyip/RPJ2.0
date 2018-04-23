@@ -6,6 +6,7 @@ class ProductGroupController extends Controller
 
   function productGroupAdd()
   {
+
     $this->display();
   }
 
@@ -20,6 +21,15 @@ class ProductGroupController extends Controller
   }
 
   function productKindEdit()
+  {
+    $this->display();
+  }
+
+  function productgrouplist()
+  {
+    $this->display();
+  }
+  function productkindlist()
   {
     $this->display();
   }

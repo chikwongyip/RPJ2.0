@@ -6,7 +6,12 @@ class ProductController extends Controller
 
   function productadd()
   {
-    $this->display();
+    if (IS_POST) {
+      var_dump($_POST);
+    }else {
+      $this->display();
+    }
+
   }
   function productlist()
   {
