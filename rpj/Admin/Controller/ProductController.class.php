@@ -7,7 +7,10 @@ class ProductController extends Controller
   function productadd()
   {
     if (IS_POST) {
-      var_dump($_POST);
+
+      $product = M('product');
+      $product->add($_POST);
+
     }else {
       $this->display();
     }

@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>ECSHOP 管理中心 - 商品分类 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="__PUBLIC__/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="__PUBLIC__/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -24,26 +24,24 @@
     <th>产品类型所属组</th>
     <th>操作</th>
   </tr>
-  <foreach name="catlist" item="cat">
-<tr align="center" class="0" id="0_1" id = 'tr_1'>
+  <?php if(is_array($catlist)): foreach($catlist as $key=>$cat): ?><tr align="center" class="0" id="0_1" id = 'tr_1'>
     <td align="left" class="first-cell" style = 'padding-left="0"'>
-            <img src="__PUBLIC__/Admin/images/menu_minus.gif" id="icon_0_1" width="9" height="9" border="0" style="margin-left:{$cat['lv']*2}em" />
-            <span><a href="#" >{$cat.cat_name}</a></span>
+            <img src="/rpj/Public/Admin/images/menu_minus.gif" id="icon_0_1" width="9" height="9" border="0" style="margin-left:<?php echo ($cat['lv']*2); ?>em" />
+            <span><a href="#" ><?php echo ($cat["cat_name"]); ?></a></span>
         </td>
     <td width="10%">0</td>
     <td width="10%"><span>&nbsp;&nbsp;&nbsp;&nbsp;</span></td>
-    <td width="10%"><img src="__PUBLIC__/Admin/images/no.gif" /></td>
-    <td width="10%"><img src="__PUBLIC__/Admin/images/yes.gif" /></td>
+    <td width="10%"><img src="/rpj/Public/Admin/images/no.gif" /></td>
+    <td width="10%"><img src="/rpj/Public/Admin/images/yes.gif" /></td>
     <td><span>5</span></td>
 
     <td width="10%" align="right"><span>50</span></td>
     <td width="24%" align="center">
       <a href="#">转移商品</a> |
-      <a href="{:U('admin/cat/cateedit',array('cat_id'=>$cat['cat_id']))}">编辑</a> |
-      <a href="{:U('admin/cat/catedel',array('cat_id'=>$cat['cat_id']))}" title="移除">移除</a>
+      <a href="<?php echo U('admin/cat/cateedit',array('cat_id'=>$cat['cat_id']));?>">编辑</a> |
+      <a href="<?php echo U('admin/cat/catedel',array('cat_id'=>$cat['cat_id']));?>" title="移除">移除</a>
     </td>
-  </tr>
-  </foreach>
+  </tr><?php endforeach; endif; ?>
   </table>
 </div>
 </form>

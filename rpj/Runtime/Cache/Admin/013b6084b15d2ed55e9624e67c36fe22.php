@@ -47,7 +47,7 @@ function charea(a) {
         <table width="90%" id="general-table" align="center">
           <tr>
             <td class="label">商品名称：</td>
-            <td><input type="text" name="productname" value="" style="float:left;color:;" size="30" /></td>
+            <td><input type="text" name="productName" value="" style="float:left;color:;" size="30" /></td>
           </tr>
           <tr>
             <td class="label">
@@ -57,7 +57,7 @@ function charea(a) {
           </tr>
           <tr>
             <td class="label">商品分组：</td>
-            <td><select name="groupid"  ><option value="0">请选择...</option>
+            <td><select name="groupID"  ><option value="0">请选择...</option>
                 <option value="6" >手机配件</option>
                 <option value="11" >&nbsp;&nbsp;&nbsp;&nbsp;读卡器和内存卡</option>
                 <option value="7" >&nbsp;&nbsp;&nbsp;&nbsp;充电器</option>
@@ -75,7 +75,7 @@ function charea(a) {
 
           <tr>
             <td class="label">商品类型：</td>
-            <td><select name="groupid"  ><option value="0">请选择...</option>
+            <td><select name="parentID"  ><option value="0">请选择...</option>
                 <option value="6" >手机配件</option>
                 <option value="11" >&nbsp;&nbsp;&nbsp;&nbsp;读卡器和内存卡</option>
                 <option value="7" >&nbsp;&nbsp;&nbsp;&nbsp;充电器</option>
