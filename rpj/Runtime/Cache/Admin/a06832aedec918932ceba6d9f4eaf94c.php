@@ -3,7 +3,7 @@
 <head>
 <title></title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/RPJ2.0/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
 
 
 <style type="text/css">
@@ -107,7 +107,7 @@
 <body>
 <div id="header-div">
 
-  <div id="logo-div" style="bgcolor:#000000;"><img src="/RPJ2.0/rpj/Public/Admin/images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" /></div>
+  <div id="logo-div" style="bgcolor:#000000;"><img src="/rpj/Public/Admin/images/ecshop_logo.gif" alt="ECSHOP - power for e-commerce" /></div>
   <div id="license-div" style="bgcolor:#000000;"></div>
   <div id="submenu-div">
     <ul>
