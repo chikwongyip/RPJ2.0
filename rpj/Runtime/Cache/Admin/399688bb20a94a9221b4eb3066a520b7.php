@@ -3,7 +3,7 @@
 <head>
 <title>ECSHOP Menu</title>
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/RPJ2.0/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
 
 <style type="text/css">
 body {
@@ -111,7 +111,7 @@ body {
 </head>
 <body>
 <div id="tabbar-div">
-<p><span style="float:right; padding: 3px 5px;" ><a href="#"><img id="toggleImg" src="/rpj/Public/Admin/images/menu_minus.gif" width="9" height="9" border="0" alt="闭合" /></a></span>
+<p><span style="float:right; padding: 3px 5px;" ><a href="#"><img id="toggleImg" src="/RPJ2.0/rpj/Public/Admin/images/menu_minus.gif" width="9" height="9" border="0" alt="闭合" /></a></span>
 
   <span class="tab-front" id="menu-tab">菜单</span>
 </p>
