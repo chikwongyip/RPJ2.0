@@ -5,8 +5,8 @@
 <title>ECSHOP 管理中心 - 添加新商品 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="/RPJ2.0/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="/RPJ2.0/rpj/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 <script type="text/javascript">
 function charea(a) {
     var spans = ['general','detail','mix'];
@@ -51,7 +51,7 @@ function charea(a) {
           </tr>
           <tr>
             <td class="label">
-            <a href="#" title="点击此处查看提示信息"><img src="/RPJ2.0/rpj/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号： </td>
+            <a href="#" title="点击此处查看提示信息"><img src="/rpj/Public/Admin/images/notice.gif" width="16" height="16" border="0" alt="点击此处查看提示信息"></a> 商品货号： </td>
             <td><input type="text" name="productsn" value="" size="20"  /><span id="goods_sn_notice"></span><br />
             <span class="notice-span" style="display:block"  id="noticeGoodsSN">如果您不输入商品货号，系统将自动生成一个唯一的货号。</span></td>
           </tr>
