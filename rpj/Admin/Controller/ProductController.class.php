@@ -13,7 +13,7 @@ class ProductController extends Controller
 
       $upload = new \Think\Upload();
       $upload->maxSize = 103145728;
-      $upload->exts = array('jpg','gif','png','jpeg');
+      $upload->exts = array('jpg','gif','png','jpeg','pdf','doc','docx','ppt','pptx');
       $upload->rootPath = './Public/Upload/';
       $upload->savePath = '';
       $retInfo = $upload->upload();
