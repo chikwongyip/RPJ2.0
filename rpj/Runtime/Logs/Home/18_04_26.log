@@ -1,0 +1,23 @@
+[ 2018-04-26T21:13:46+08:00 ] ::1 /rpj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000030s ]
+INFO: [ app_init ] --END-- [ RunTime:0.042058s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.081354s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.081391s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.2526s ]
+SQL: SELECT * FROM `company` WHERE `comID` = 1 LIMIT 1   [ RunTime:0.0432s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000360s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000388s ]
+NOTIC: [8] Undefined index: comenglist /Users/chihkuang/Sites/rpj/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.341689s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.341716s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.012686s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.012806s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.222057s ]
+INFO: [ app_end ] --END-- [ RunTime:0.222102s ]
+
