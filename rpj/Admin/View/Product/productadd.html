@@ -101,14 +101,14 @@ function charea(a) {
           <tr>
             <td class="label">上传商品图片：</td>
             <td>
-              <input type="file" name="productpicture" size="35" />
+              <input type="file" name="productPicture" size="35" />
             </td>
 
           </tr>
           <tr>
           <td class="label">上传附件：</td>
           <td>
-            <input type="file" name="attachement" size="35" />
+            <input type="file" name="Attachment" size="35" />
           </td>
           </tr>
         </table>

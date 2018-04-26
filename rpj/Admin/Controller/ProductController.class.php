@@ -21,11 +21,12 @@ class ProductController extends Controller
       if (!$retInfo) {
         $this->error($upload->getError());
       }else {
-        //var_dump($retInfo);
-        $_POST['productpicture'] = './Public/Upload'.$retInfo['productpicture']['savepath'].$retInfo['productpicture']['savename'];
-        $_POST['attachement'] = './Public/Upload'.$retInfo['attachement']['savepath'].$retInfo['attachement']['savename'];
-        //$this->success('上传成功');
-        //var_dump($_POST);exit;
+        if (isset($retInfo['productPicture'])) {
+          $_POST['productPicture'] = './Public/Upload'.$retInfo['productPicture']['savepath'].$retInfo['productPicture']['savename'];
+        }
+        if (isset($retInfo['Attachment'])) {
+          $_POST['Attachment'] = './Public/Upload'.$retInfo['Attachment']['savepath'].$retInfo['Attachment']['savename'];
+        }
       }
       $product->add($_POST);
 
