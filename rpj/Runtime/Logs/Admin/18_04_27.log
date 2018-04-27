@@ -1,0 +1,1659 @@
+[ 2018-04-27T21:30:49+08:00 ] ::1 /rpj/index.php/admin/product/productadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000042s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000344s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000322s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000351s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000049s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [2] file_put_contents(./Runtime/Cache/Admin/013b6084b15d2ed55e9624e67c36fe22.php): failed to open stream: Permission denied /Users/chihkuang/Sites/ThinkPHP/Library/Think/Storage/Driver/File.class.php 第 47 行.
+ERR: _STORAGE_WRITE_ERROR_:./Runtime/Cache/Admin/013b6084b15d2ed55e9624e67c36fe22.php
+
+[ 2018-04-27T21:31:28+08:00 ] ::1 /rpj/index.php/admin/product/productadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000416s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000406s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000427s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005949s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000347s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-04-27T21:38:31+08:00 ] ::1 /rpj/index.php/admin/product/productadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000278s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000347s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004461s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004506s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000143s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000209s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000345s ]
+
+[ 2018-04-27T21:38:37+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+
+[ 2018-04-27T21:39:02+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000269s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000320s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-04-27T21:39:43+08:00 ] ::1 /rpj/index.php/admin/product/productedit
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000192s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000298s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000316s ]
+NOTIC: [8] Undefined index: productId /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php 第 61 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0250s ]
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `product` WHERE ( productId =  ) 
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near ')' at line 1
+ [ SQL语句 ] : SELECT * FROM `product` WHERE ( productId =  ) 
+
+[ 2018-04-27T21:40:51+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004657s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004684s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-04-27T21:41:10+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/1
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000241s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 1 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004638s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004656s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000116s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000131s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-04-27T21:41:14+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003776s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003794s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000114s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000283s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000297s ]
+
+[ 2018-04-27T21:42:59+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000330s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0007s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0004s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000051s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004812s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004831s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000332s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000346s ]
+
+[ 2018-04-27T21:44:54+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000324s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: product /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004723s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004740s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-04-27T21:44:58+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000171s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined variable: product /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004280s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004298s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000329s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000344s ]
+
+[ 2018-04-27T21:45:53+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000248s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000378s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000081s ]
+NOTIC: [8] Undefined variable: product /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005063s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005082s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000148s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000386s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000406s ]
+
+[ 2018-04-27T21:47:51+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000046s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004694s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004711s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-04-27T21:47:54+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000247s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000265s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004368s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004387s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000156s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000176s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000366s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-04-27T21:48:36+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004130s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004146s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000301s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000315s ]
+
+[ 2018-04-27T21:49:19+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000271s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004531s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000354s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-04-27T21:50:29+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004579s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000127s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000372s ]
+
+[ 2018-04-27T21:50:52+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000229s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004161s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004180s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000336s ]
+
+[ 2018-04-27T21:51:03+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004644s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004665s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000369s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000384s ]
+
+[ 2018-04-27T21:52:51+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: productname; /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004576s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004593s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000105s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-04-27T21:53:13+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000191s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: productname; /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004560s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004578s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000137s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000207s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000381s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000399s ]
+
+[ 2018-04-27T21:53:18+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined index: productname; /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003927s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003943s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000115s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000260s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000274s ]
+
+[ 2018-04-27T21:53:24+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: productname; /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004696s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004713s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000127s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000337s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-04-27T21:53:57+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: productname; /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004684s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004701s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000328s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000343s ]
+
+[ 2018-04-27T21:54:19+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000269s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined index: productname; /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004297s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000100s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000113s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000304s ]
+
+[ 2018-04-27T21:59:19+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000331s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000349s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004061s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004078s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000132s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000315s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-04-27T21:59:22+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000259s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000051s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004519s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004536s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000103s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000311s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000325s ]
+
+[ 2018-04-27T22:00:02+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004227s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-04-27T22:00:30+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000180s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004563s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004580s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000323s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000339s ]
+
+[ 2018-04-27T22:00:36+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004848s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004866s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000133s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000147s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000351s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-04-27T22:01:21+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004360s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004421s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000141s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000158s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000335s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000359s ]
+
+[ 2018-04-27T22:01:31+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000239s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004645s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004662s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000346s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000361s ]
+
+[ 2018-04-27T22:01:33+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003880s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003896s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000095s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000108s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000267s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2018-04-27T22:02:16+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000179s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000229s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004290s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004307s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000117s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000286s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000301s ]
+
+[ 2018-04-27T22:02:18+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000045s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003985s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004001s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000290s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000305s ]
+
+[ 2018-04-27T22:02:23+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000245s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000262s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004118s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000104s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000119s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000320s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000335s ]
+
+[ 2018-04-27T22:02:30+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000262s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000281s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 12 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043903s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043928s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000150s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000167s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000390s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000405s ]
+
+[ 2018-04-27T22:03:24+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000206s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000268s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 12 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004542s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004559s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000145s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000356s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000371s ]
+
+[ 2018-04-27T22:04:41+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000202s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000264s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 12 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000084s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+NOTIC: [8] Undefined index: productid /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004566s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-04-27T22:04:43+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000197s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000235s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000252s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 12 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined index: productname /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+NOTIC: [8] Undefined index: productid /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004066s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004083s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000351s ]
+
+[ 2018-04-27T22:08:17+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 12 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+NOTIC: [8] Undefined index: productid /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004490s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004508s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000349s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-04-27T22:08:51+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 12 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004590s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004611s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000307s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000322s ]
+
+[ 2018-04-27T22:08:55+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000255s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000273s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE ( productId = 11 )  [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004065s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004084s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000102s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000116s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:65) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000284s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000298s ]
+
+[ 2018-04-27T22:09:41+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000217s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined offset: 0 /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+NOTIC: [8] Undefined offset: 0 /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 55 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004363s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004380s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000382s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000397s ]
+
+[ 2018-04-27T22:11:48+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000200s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+ERR: syntax error, unexpected '"]["' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2018-04-27T22:11:54+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000231s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 12 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+ERR: syntax error, unexpected '"]["' (T_CONSTANT_ENCAPSED_STRING), expecting ']'
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/Think.class.php 第 229 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/Think.class.php 第 230 行.
+
+[ 2018-04-27T22:12:35+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000247s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 12 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004390s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004408s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000178s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000197s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-04-27T22:14:00+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/12
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000199s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000279s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 12 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000025s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004259s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000134s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000278s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000291s ]
+
+[ 2018-04-27T22:14:25+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000286s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000048s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004407s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004424s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000356s ]
+
+[ 2018-04-27T22:15:09+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000220s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000058s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004746s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004766s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000325s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000341s ]
+
+[ 2018-04-27T22:18:09+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000276s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004132s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004151s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000107s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000266s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000280s ]
+
+[ 2018-04-27T22:18:18+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000185s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000238s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000255s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004523s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000114s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000129s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000318s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000333s ]
+
+[ 2018-04-27T22:20:20+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000060s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005509s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005532s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000149s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000431s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000447s ]
+
+[ 2018-04-27T22:21:52+08:00 ] ::1 /rpj/index.php/admin/product/productadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000267s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000287s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000046s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044529s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044554s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000119s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000287s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000300s ]
+
+[ 2018-04-27T22:22:11+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000173s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+
+[ 2018-04-27T22:24:10+08:00 ] ::1 /rpj/index.php/admin/product/productadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000283s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000266s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000285s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.024230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.024257s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000150s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000322s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000338s ]
+
+[ 2018-04-27T22:24:31+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000176s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000318s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+NOTIC: [2] call_user_func() expects parameter 1 to be a valid callback, no array or string given /Users/chihkuang/Sites/ThinkPHP/Library/Think/Upload.class.php 第 170 行.
+NOTIC: [2] finfo_file(): Empty filename or path /Users/chihkuang/Sites/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+SQL: INSERT INTO `product` (`productName`,`productSn`,`groupID`,`parentID`,`isHot`,`productDesc`,`productPicture`,`productIcon`) VALUES ('12321321','12321321','6','8','1','3123213213123213','./Public/Upload/2018-04-27/5ae3329f81c0f.jpg','./Public/Thumb/5ae3329f81c0f.jpg') [ RunTime:0.0963s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000082s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000162s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.044146s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044175s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000139s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000153s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:38) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:38) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:38) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000309s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000323s ]
+
+[ 2018-04-27T22:26:05+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000043s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004271s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004289s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000295s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000310s ]
+
+[ 2018-04-27T22:26:23+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000201s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000048s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004190s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004219s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000172s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000319s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000334s ]
+
+[ 2018-04-27T22:27:55+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000243s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000260s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000044s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004374s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004391s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000108s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:66) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000270s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000284s ]
+
+[ 2018-04-27T22:30:51+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000256s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000274s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000055s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004891s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000120s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+
+[ 2018-04-27T22:30:54+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+NOTIC: [2] finfo_file(): Empty filename or path /Users/chihkuang/Sites/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /Users/chihkuang/Sites/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000014s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000029s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.002885s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.002902s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000092s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000104s ]
+
+[ 2018-04-27T22:31:45+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000256s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000259s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000277s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004522s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004541s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000342s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000357s ]
+
+[ 2018-04-27T22:31:46+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000203s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000251s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000278s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+NOTIC: [2] finfo_file(): Empty filename or path /Users/chihkuang/Sites/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+NOTIC: [2] finfo_file(): Empty filename or path /Users/chihkuang/Sites/ThinkPHP/Library/Think/Upload.class.php 第 152 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000015s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000030s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043110s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.043142s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000125s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000141s ]
+
+[ 2018-04-27T22:33:35+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000223s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000331s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004252s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004270s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000120s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000294s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-04-27T22:33:37+08:00 ] ::1 /rpj/index.php/admin/product/productadd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000005s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000166s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000238s ]
+
+[ 2018-04-27T22:33:50+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000211s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000297s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000026s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004224s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004242s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000110s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000122s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000289s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000303s ]
+
+[ 2018-04-27T22:34:33+08:00 ] ::1 /rpj/index.php/admin/product/productedit/productId/11
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` WHERE `productId` = 11 LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004581s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004599s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000115s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000130s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000314s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000329s ]
+
+[ 2018-04-27T22:34:35+08:00 ] ::1 /rpj/index.php/admin/product/productedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000169s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000222s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000239s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000024s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000042s ]
+NOTIC: [8] Undefined variable: productInfo /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 50 行.
+NOTIC: [8] Undefined variable: productInfo /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 55 行.
+NOTIC: [8] Undefined variable: productInfo /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 60 行.
+NOTIC: [8] Undefined variable: productInfo /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 78 行.
+NOTIC: [8] Undefined variable: productInfo /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/3370692b13e0ce663b274e8ded954afc.php 第 119 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003895s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003909s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000097s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:71) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:71) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php:71) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000263s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000276s ]
+
+[ 2018-04-27T22:35:50+08:00 ] ::1 /rpj/index.php/admin/product/productedit.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000174s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000228s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000245s ]
+NOTIC: [8] Undefined index: productId /Users/chihkuang/Sites/rpj/Admin/Controller/ProductController.class.php 第 62 行.
+SQL: SHOW COLUMNS FROM `product` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `product` LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004791s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004811s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000135s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000151s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000343s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000358s ]
+

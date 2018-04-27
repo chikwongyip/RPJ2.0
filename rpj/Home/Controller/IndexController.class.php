@@ -7,6 +7,7 @@ class IndexController extends Controller {
         $company = $company->find(1);
         if (isset($company)) {
           $this->assign('companyInfo', $company);
+          var_dump($company);
           $this->display();
         }
 

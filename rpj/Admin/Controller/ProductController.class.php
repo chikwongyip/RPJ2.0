@@ -9,6 +9,7 @@ class ProductController extends Controller
   {
     if (IS_POST) {
       //echo APP_PATH;exit;
+      //var_dump($_POST);exit;
       $product = M('product');
 
       $upload = new \Think\Upload();
@@ -55,13 +56,19 @@ class ProductController extends Controller
     $this->display();
   }
 
-  function productEdit(){
+  function productedit(){
+
     if (IS_GET) {
       $productId = $_GET['productId'];
       $product = M('product');
-      $product = $product->where("productId = $productId")->select();
-      $this->assign($product,'product');
-      var_dump($product);
+      //$product = $product->where("productId = $productId")->select();
+      $product = $product->find($productId);
+      $this->assign('productInfo',$product);
+      //var_dump($product);
+    }
+
+    if (IS_POST) {
+      var_dump($_POST);
     }
     $this->display();
   }
