@@ -12,7 +12,7 @@ class ProductController extends Controller
       $product = M('product');
 
       $upload = new \Think\Upload();
-      $upload->maxSize = 103145728;
+      $upload->maxSize = 553145728;
       $upload->exts = array('jpg','gif','png','jpeg','pdf','doc','docx','ppt','pptx','chm');
       $upload->rootPath = './Public/Upload/';
       $upload->savePath = '';
@@ -48,6 +48,21 @@ class ProductController extends Controller
 
   function productlist()
   {
+    if(IS_GET){
+      $product = M('product');
+      $product->find($_GET);
+    }
+    $this->display();
+  }
+
+  function productEdit(){
+    if (IS_GET) {
+      $productId = $_GET['productId'];
+      $product = M('product');
+      $product = $product->where("productId = $productId")->select();
+      $this->assign($product,'product');
+      var_dump($product);
+    }
     $this->display();
   }
 
