@@ -68,7 +68,40 @@ class ProductController extends Controller
     }
 
     if (IS_POST) {
-      var_dump($_POST);
+      //var_dump($_POST);
+      $product = M('product');
+      //$product->find($_POST['productId']);
+      $id = $_POST['productid'];
+      $product = $product->where('productId = 11')->select();
+      var_dump($product);exit;
+      if (isset($_POST['productname'])) {
+        $product->productName = $_POST['productname'];
+      }
+
+      if (isset($_POST['groupid'])) {
+        $product->groupID = $_POST['groupid'];
+      }
+      if (isset($_POST['parentid'])) {
+        $product->parenID = $_POST['parentid'];
+      }
+
+      if (isset($_POST['ishot'])) {
+        $product->isHot = $_POST['ishot'];
+      }
+      if (isset($_POST['producttypeid'])) {
+        $product->producttypeid = $_POST['producttypeid'];
+      }
+      if (isset($_POST['productsn'])) {
+        $product->productSn = $_POST['productsn'];
+      }
+      if (isset($_POST['productdesc'])) {
+        $product->productDesc = $_POST['productdesc'];
+      }
+      //var_dump($product);
+      //var_dump($_POST);
+      //exit;
+      echo $product->productSn;exit;
+      var_dump($product->save());
     }
     $this->display();
   }
