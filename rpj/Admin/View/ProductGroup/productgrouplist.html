@@ -21,22 +21,24 @@
   <div class="list-div" id="listDiv">
 <table cellpadding="3" cellspacing="1">
   <tr>
-    <th>
-      <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
-      <a href="#">产品组ID</a><img src="__PUBLIC__/Admin/images/sort_desc.gif"/>    </th>
 
-    <th><a href="#">产品组名称</a></th>
-    <th><a href="#">产品组描述</a></th>
-    <th>操作</th>
+      <th>
+        <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
+
+        <a href="#">产品组ID</a><img src="__PUBLIC__/Admin/images/sort_desc.gif"/>    </th>
+
+      <th><a href="#">产品组名称</a></th>
+      <th><a href="#">产品组描述</a></th>
+      <th>操作</th>
+
   <tr>
-      <foreach name="list" item="v">
+      <foreach name="productgroup" item="p">
       <tr>
-    <td><input type="checkbox" name="checkboxes[]" value="32" />{$v.goods_id}</td>
+    <td><input type="checkbox" name="checkboxes[]" value="32" />{$p.groupid}</td>
 
-    <td class="first-cell" style=""><span >{$v.goods_name}</span></td>
-    <td><span >{$v.goods_sn}</span></td>
-    <td align="right"><span >{$v.shop_price}
-    </span></td>
+    <td class="first-cell" style=""><span >{$v.groupName}</span></td>
+    <td><span >{$p.Groupdesc}</span></td>
+
     <td align="center"><img src="__PUBLIC__/Admin/images/yes.gif"  /></td>
     <td align="center"><img src="__PUBLIC__/Admin/images/yes.gif"  /></td>
     <td align="center"><img src="__PUBLIC__/Admin/images/yes.gif"  /></td>

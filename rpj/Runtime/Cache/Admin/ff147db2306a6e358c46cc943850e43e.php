@@ -21,21 +21,23 @@
   <div class="list-div" id="listDiv">
 <table cellpadding="3" cellspacing="1">
   <tr>
-    <th>
-      <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
-      <a href="#">产品组ID</a><img src="/rpj/Public/Admin/images/sort_desc.gif"/>    </th>
 
-    <th><a href="#">产品组名称</a></th>
-    <th><a href="#">产品组描述</a></th>
-    <th>操作</th>
+      <th>
+        <input onclick='listTable.selectAll(this, "checkboxes")' type="checkbox" />
+
+        <a href="#">产品组ID</a><img src="/rpj/Public/Admin/images/sort_desc.gif"/>    </th>
+
+      <th><a href="#">产品组名称</a></th>
+      <th><a href="#">产品组描述</a></th>
+      <th>操作</th>
+
   <tr>
-      <?php if(is_array($list)): foreach($list as $key=>$v): ?><tr>
-    <td><input type="checkbox" name="checkboxes[]" value="32" /><?php echo ($v["goods_id"]); ?></td>
+      <?php if(is_array($productgroup)): foreach($productgroup as $key=>$p): ?><tr>
+    <td><input type="checkbox" name="checkboxes[]" value="32" /><?php echo ($p["groupid"]); ?></td>
 
-    <td class="first-cell" style=""><span ><?php echo ($v["goods_name"]); ?></span></td>
-    <td><span ><?php echo ($v["goods_sn"]); ?></span></td>
-    <td align="right"><span ><?php echo ($v["shop_price"]); ?>
-    </span></td>
+    <td class="first-cell" style=""><span ><?php echo ($v["groupName"]); ?></span></td>
+    <td><span ><?php echo ($p["Groupdesc"]); ?></span></td>
+
     <td align="center"><img src="/rpj/Public/Admin/images/yes.gif"  /></td>
     <td align="center"><img src="/rpj/Public/Admin/images/yes.gif"  /></td>
     <td align="center"><img src="/rpj/Public/Admin/images/yes.gif"  /></td>

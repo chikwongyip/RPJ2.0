@@ -1,11 +1,11 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<?php if (!defined('THINK_PATH')) exit();?><!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
 <html xmlns="http://www.w3.org/1999/xhtml">
 <head>
 <title>ECSHOP 管理中心 - 添加分类 </title>
 <meta name="robots" content="noindex, nofollow">
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link href="__PUBLIC__/Admin/css/general.css" rel="stylesheet" type="text/css" />
-<link href="__PUBLIC__/Admin/css/main.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/general.css" rel="stylesheet" type="text/css" />
+<link href="/rpj/Public/Admin/css/main.css" rel="stylesheet" type="text/css" />
 </head>
 <body>
 
@@ -16,7 +16,7 @@
 </h1>
 
 <div class="main-div">
-  <form action="{:U('admin/productGroup/productGroupAdd')}" method="post" name="theForm" enctype="multipart/form-data">
+  <form action="<?php echo U('admin/productGroup/productGroupAdd');?>" method="post" name="theForm" enctype="multipart/form-data">
   <table width="100%" id="general-table">
       <tr>
         <td class="label">产品组名称:</td>

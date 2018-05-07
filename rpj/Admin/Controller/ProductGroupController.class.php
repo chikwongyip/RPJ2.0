@@ -6,12 +6,25 @@ class ProductGroupController extends Controller
 
   function productGroupAdd()
   {
-
+    if (IS_POST) {
+      //var_dump($_POST);
+      $productGroup = M('productgroup');
+      $productGroup->add($_POST);
+      echo '添加成功！';
+    }
     $this->display();
   }
 
   function productGroupEdit()
   {
+    $this->display();
+  }
+
+  function productgrouplist()
+  {
+    $productGroup = M('productgroup');
+    
+    $this->assign('productgroup',$productGroup);
     $this->display();
   }
 
@@ -25,10 +38,7 @@ class ProductGroupController extends Controller
     $this->display();
   }
 
-  function productgrouplist()
-  {
-    $this->display();
-  }
+
   function productkindlist()
   {
     $this->display();
