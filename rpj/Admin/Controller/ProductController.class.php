@@ -11,7 +11,7 @@ class ProductController extends Controller
       //echo APP_PATH;exit;
       //var_dump($_POST);exit;
       $product = M('product');
-
+      
       $upload = new \Think\Upload();
       $upload->maxSize = 553145728;
       $upload->exts = array('jpg','gif','png','jpeg','pdf','doc','docx','ppt','pptx','chm');

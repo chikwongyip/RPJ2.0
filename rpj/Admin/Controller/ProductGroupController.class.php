@@ -26,7 +26,7 @@ class ProductGroupController extends Controller
     $productGroupList = $productGroup->select();
     var_dump($productGroupList);
     //exit;
-    $this->assign('productgrouplist',$productGrouplist);
+    $this->assign('list',$productGrouplist);
     $this->display();
   }
 
