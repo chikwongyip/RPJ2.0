@@ -1,0 +1,104 @@
+[ 2018-05-09T21:03:20+08:00 ] ::1 /rpj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000032s ]
+INFO: [ app_init ] --END-- [ RunTime:0.004777s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000581s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000613s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0424s ]
+SQL: SELECT * FROM `company` WHERE `comID` = 1 LIMIT 1   [ RunTime:0.0423s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000301s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000327s ]
+NOTIC: [8] Undefined index: comenglist /Users/chihkuang/Sites/rpj/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.100806s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.100826s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.022524s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.022546s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.041502s ]
+INFO: [ app_end ] --END-- [ RunTime:0.041542s ]
+
+[ 2018-05-09T21:03:52+08:00 ] ::1 /rpj/
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000274s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000293s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0674s ]
+SQL: SELECT * FROM `company` WHERE `comID` = 1 LIMIT 1   [ RunTime:0.0618s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000066s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: comenglist /Users/chihkuang/Sites/rpj/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006108s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006126s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000123s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000138s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000364s ]
+
+[ 2018-05-09T21:05:21+08:00 ] ::1 /rpj/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000309s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000333s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000356s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0428s ]
+SQL: SELECT * FROM `company` WHERE `comID` = 1 LIMIT 1   [ RunTime:0.0429s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000068s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000090s ]
+NOTIC: [8] Undefined index: comenglist /Users/chihkuang/Sites/rpj/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006574s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006594s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000137s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000348s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000368s ]
+
+[ 2018-05-09T21:05:21+08:00 ] ::1 /rpj/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000230s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000246s ]
+SQL: SHOW COLUMNS FROM `company` [ RunTime:0.0501s ]
+SQL: SELECT * FROM `company` WHERE `comID` = 1 LIMIT 1   [ RunTime:0.0986s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000063s ]
+NOTIC: [8] Undefined index: comenglist /Users/chihkuang/Sites/rpj/Runtime/Cache/Home/2f412aae274b751dca883838bf7e7502.php 第 34 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005900s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005918s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000106s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000121s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Home/Controller/IndexController.class.php:10) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000417s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+

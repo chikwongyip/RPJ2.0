@@ -1,0 +1,92 @@
+[ 2018-05-09T21:05:25+08:00 ] ::1 /rpj/index.php/admin/product/productadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000190s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000057s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.082757s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.082787s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000109s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000123s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000273s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000287s ]
+
+[ 2018-05-09T21:05:41+08:00 ] ::1 /rpj/index.php/admin/product/productgroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000252s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+ERR: 非法操作:productgroup
+
+[ 2018-05-09T21:06:10+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgroup
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000208s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000269s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000288s ]
+ERR: 非法操作:productgroup
+
+[ 2018-05-09T21:06:14+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000232s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000294s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-05-09T21:06:14+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000015s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000266s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000318s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000338s ]
+ERR: SQLSTATE[HY000] [2002] Connection refused
+
+[ 2018-05-09T21:07:03+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000207s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000252s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000270s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-09T21:10:46+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000222s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000292s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-09T21:11:40+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000245s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000296s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+

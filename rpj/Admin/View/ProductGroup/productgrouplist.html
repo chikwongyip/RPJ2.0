@@ -32,11 +32,11 @@
       <th>操作</th>
 
   <tr>
-      <foreach name="productgroup" item="p">
+      <foreach name="productgrouplist" item="p">
       <tr>
     <td><input type="checkbox" name="checkboxes[]" value="32" />{$p.groupid}</td>
 
-    <td class="first-cell" style=""><span >{$v.groupName}</span></td>
+    <td class="first-cell" style=""><span >{$p.groupName}</span></td>
     <td><span >{$p.Groupdesc}</span></td>
 
     <td align="center"><img src="__PUBLIC__/Admin/images/yes.gif"  /></td>

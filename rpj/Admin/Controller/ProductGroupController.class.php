@@ -23,8 +23,10 @@ class ProductGroupController extends Controller
   function productgrouplist()
   {
     $productGroup = M('productgroup');
-    
-    $this->assign('productgroup',$productGroup);
+    $productGroupList = $productGroup->select();
+    var_dump($productGroupList);
+    //exit;
+    $this->assign('productgrouplist',$productGrouplist);
     $this->display();
   }
 

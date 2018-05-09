@@ -1,0 +1,445 @@
+[ 2018-05-08T21:53:12+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgroouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000234s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000337s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000364s ]
+ERR: 非法操作:productgroouplist
+
+[ 2018-05-08T21:53:17+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000218s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000282s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000300s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T21:54:26+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000283s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000303s ]
+ERR: 1146:Table 'bdm260329202_db.product_group' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `product_group`
+ERR: 1146:Table 'bdm260329202_db.product_group' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `product_group`
+
+[ 2018-05-08T21:54:59+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000258s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T21:55:02+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000226s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T21:55:46+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000309s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000326s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T21:56:14+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgroupadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000301s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000323s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000023s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.019934s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.019956s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000214s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000303s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000643s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000666s ]
+
+[ 2018-05-08T21:56:24+08:00 ] ::1 /rpj/index.php/admin/productGroup/productGroupAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000301s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T22:04:17+08:00 ] ::1 /rpj/index.php/admin/productGroup/productGroupAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000177s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000233s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000250s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000027s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000047s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003216s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003233s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000131s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000183s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000367s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000396s ]
+
+[ 2018-05-08T22:04:36+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000175s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000249s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T22:05:21+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000194s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000258s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T22:08:59+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgroupadd
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000739s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000799s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000021s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000041s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003493s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000134s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000236s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000333s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000349s ]
+
+[ 2018-05-08T22:09:04+08:00 ] ::1 /rpj/index.php/admin/productGroup/productGroupAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000181s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000236s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000253s ]
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+ERR: 1146:Table 'bdm260329202_db.productgroup' doesn't exist
+ [ SQL语句 ] : SHOW COLUMNS FROM `productgroup`
+
+[ 2018-05-08T22:18:21+08:00 ] ::1 /rpj/index.php/admin/productGroup/productGroupAdd.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000213s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000263s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000283s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000028s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.003399s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.003416s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000112s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000126s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000312s ]
+
+[ 2018-05-08T22:18:27+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000182s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000240s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000257s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+
+[ 2018-05-08T22:18:46+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000198s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000279s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000298s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+
+[ 2018-05-08T22:19:20+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000232s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000248s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+
+[ 2018-05-08T22:19:44+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000193s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined variable: productgroup /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 35 行.
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.020259s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.020275s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000118s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000133s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000336s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000350s ]
+
+[ 2018-05-08T22:20:18+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000210s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000295s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000059s ]
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005548s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005565s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000126s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000140s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000364s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000382s ]
+
+[ 2018-05-08T22:20:21+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000205s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000314s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004743s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004759s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000122s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000136s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000309s ]
+
+[ 2018-05-08T22:20:39+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000007s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000195s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000257s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000275s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000050s ]
+NOTIC: [8] Undefined variable: productGroupList /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 35 行.
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004888s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004904s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000113s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000326s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000340s ]
+
+[ 2018-05-08T22:20:41+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000168s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000287s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000304s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000052s ]
+NOTIC: [8] Undefined variable: productGroupList /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 35 行.
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004977s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000111s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000125s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000345s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000360s ]
+
+[ 2018-05-08T22:21:10+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000233s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000273s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000302s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000049s ]
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004608s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004633s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000121s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000135s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000303s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000316s ]
+
+[ 2018-05-08T22:21:30+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000006s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000184s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000249s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000267s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0006s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000056s ]
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005107s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005124s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000128s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000142s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000340s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+
+[ 2018-05-08T22:22:15+08:00 ] ::1 /rpj/index.php/admin/productgroup/productgrouplist
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000008s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000196s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000254s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000272s ]
+SQL: SHOW COLUMNS FROM `productgroup` [ RunTime:0.0005s ]
+SQL: SELECT * FROM `productgroup`  [ RunTime:0.0002s ]
+NOTIC: [8] Undefined variable: productGrouplist /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php 第 29 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000054s ]
+NOTIC: [8] Undefined variable: page /Users/chihkuang/Sites/rpj/Runtime/Cache/Admin/ff147db2306a6e358c46cc943850e43e.php 第 60 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006505s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006523s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000117s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000132s ]
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 91 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 92 行.
+NOTIC: [2] Cannot modify header information - headers already sent by (output started at /Users/chihkuang/Sites/rpj/Admin/Controller/ProductgroupController.class.php:27) /Users/chihkuang/Sites/ThinkPHP/Library/Think/View.class.php 第 93 行.
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000339s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000355s ]
+

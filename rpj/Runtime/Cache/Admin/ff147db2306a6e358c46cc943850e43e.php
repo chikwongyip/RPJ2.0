@@ -32,10 +32,10 @@
       <th>操作</th>
 
   <tr>
-      <?php if(is_array($productgroup)): foreach($productgroup as $key=>$p): ?><tr>
+      <?php if(is_array($productgrouplist)): foreach($productgrouplist as $key=>$p): ?><tr>
     <td><input type="checkbox" name="checkboxes[]" value="32" /><?php echo ($p["groupid"]); ?></td>
 
-    <td class="first-cell" style=""><span ><?php echo ($v["groupName"]); ?></span></td>
+    <td class="first-cell" style=""><span ><?php echo ($p["groupName"]); ?></span></td>
     <td><span ><?php echo ($p["Groupdesc"]); ?></span></td>
 
     <td align="center"><img src="/rpj/Public/Admin/images/yes.gif"  /></td>

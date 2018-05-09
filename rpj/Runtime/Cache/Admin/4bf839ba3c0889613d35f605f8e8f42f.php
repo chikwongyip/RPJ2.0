@@ -16,19 +16,19 @@
 </h1>
 
 <div class="main-div">
-  <form action="<?php echo U('admin/product/productGroupAdd');?>" method="post" name="theForm" enctype="multipart/form-data">
+  <form action="<?php echo U('admin/productGroup/productGroupAdd');?>" method="post" name="theForm" enctype="multipart/form-data">
   <table width="100%" id="general-table">
       <tr>
         <td class="label">产品组名称:</td>
         <td>
-          <input type='text' name='groupname' maxlength="20" value='' size='27' /> <font color="red">*</font>
+          <input type='text' name='groupName' maxlength="20" value='' size='27' /> <font color="red">*</font>
         </td>
       </tr>
 
       <tr>
         <td class="label">产品组描述:</td>
         <td>
-          <textarea name='groupdesc' rows="6" cols="48"></textarea>
+          <textarea name='groupDesc' rows="6" cols="48"></textarea>
         </td>
       </tr>
       </table>
